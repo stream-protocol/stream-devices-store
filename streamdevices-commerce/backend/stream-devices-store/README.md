@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Stream Devices Store Backend
+  Medusa Starter Default
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/medusajs/medusa">Medusa</a>. Follow the steps below to get ready.
@@ -46,21 +46,21 @@ This starter has minimal prerequisites and most of these will usually already be
   ```
 - Create a new Medusa project
   ```
-  medusa new stream-devices-store
+  medusa new my-medusa-store
   ```
 - Run your project
   ```
-  cd stream-devices-store
+  cd my-medusa-store
   medusa develop
   ```
 
-Your local stream-devices-store server is now running on port **9000**.
+Your local Medusa server is now running on port **9000**.
 
-### Seeding your Stream Devices store
+### Seeding your Medusa store
 
 ---
 
-To seed your stream-devices-store store run the following command:
+To seed your medusa store run the following command:
 
 ```
 medusa seed -f ./data/seed.json
@@ -76,7 +76,7 @@ This command seeds your database with some sample data to get you started, inclu
   ```
 - Create a new Medusa project
   ```
-  medusa new stream-devices-store
+  medusa new my-medusa-store
   ```
 - Update project config in `medusa-config.js`:
 
@@ -107,9 +107,9 @@ This command seeds your database with some sample data to get you started, inclu
   docker-compose up
   ```
 
-Your local Stream Devices server is now running on port **9000**.
+Your local Medusa server is now running on port **9000**.
 
-### Seeding your Stream Devices store with Docker
+### Seeding your Medusa store with Docker
 
 ---
 
